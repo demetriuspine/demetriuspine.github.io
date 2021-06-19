@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+}
+div {
+    padding: 5px;
+}
+body {
+    font-family: monospace;
+    background-image: url(/dsotm.jpg);
+    backdrop-filter: blur(20px);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+p {
+    text-align: justify;
+}
+.rounded-pic {
+    border-radius: 50%;
+    float: left;
+    width: 150px;
+    padding: 5px;
+    background-color: rebeccapurple;
+}
+
+h1 {
+    text-align: left;
+}
+
+.pic-width {
+    height: 210px;
+    position: relative;
+}
+
+.description {
+    position: absolute;
+    top: 30%;
+    left: 170px;
+    padding: 20px;
+}
+
+#quote {
+    text-align: right;
+}
+
+.trajetoria p {
+    padding: 20px;
+}
+.title {
+    padding: 10px 100px;
+}
+.nome {
+    padding: 10px;
+}
+.general-container h2 {
+    text-align: left;
+    color: lightblue;
+    padding: 5px;
+}
+
+ul li {
+    padding: 5px;
+}
+.index {
+    width: 300px;
+}
+
+.index-itens:hover {
+    font-weight: bold;
+    background-color: rgb(26, 25, 25);
+}
