@@ -69,3 +69,18 @@ ul li {
     font-weight: bold;
     background-color: rgb(26, 25, 25);
 }
+
+.icon-img {
+    width: 100px;
+    border-radius: 15%;
+    padding: 0px;
+    margin: 15px;
+}
+
+.icon-img:hover {
+    background-image: linear-gradient(red, yellow, blue);
+}
+
+a {
+    color: transparent;
+}
