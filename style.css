@@ -65,9 +65,25 @@ ul li {
     width: 300px;
 }
 
+li a{
+    color: red;
+    background-color: white;
+    border-radius: 15%;
+    padding: 3px;
+    text-decoration: unset;
+}
+
+li a:hover {
+    color: rgb(2, 58, 58);
+}
+
+li a:active {
+    background-color: red;
+    color: white;
+}
+
 .index-itens:hover {
     font-weight: bold;
-    background-color: rgb(26, 25, 25);
 }
 
 .icon-img {
@@ -81,6 +97,7 @@ ul li {
     background-image: linear-gradient(red, yellow, blue);
 }
 
-a {
+.icons a {
     color: transparent;
 }
+
