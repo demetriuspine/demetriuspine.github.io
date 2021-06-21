@@ -14,6 +14,7 @@ body {
 }
 p {
     text-align: justify;
+    font-size: 20px;
 }
 .rounded-pic {
     border-radius: 50%;
@@ -25,6 +26,7 @@ p {
 
 h1 {
     text-align: left;
+    font-size: 50px;
 }
 
 .pic-width {
@@ -41,6 +43,8 @@ h1 {
 
 #quote {
     text-align: right;
+    font-size: 16px;
+    padding: 10px;
 }
 
 .trajetoria p {
@@ -55,14 +59,16 @@ h1 {
 .general-container h2 {
     text-align: left;
     color: lightblue;
-    padding: 5px;
+    padding: 10px;
+    margin-top: 15px;
+    font-size: 30px;
 }
 
 ul li {
     padding: 5px;
 }
 .index {
-    width: 300px;
+    width: 500px;
 }
 
 li a{
@@ -71,6 +77,7 @@ li a{
     border-radius: 15%;
     padding: 3px;
     text-decoration: unset;
+    font-size: 20px;
 }
 
 li a:hover {
@@ -93,14 +100,14 @@ li a:active {
     margin: 15px;
 }
 
-.icon-img:hover {
-    background-image: linear-gradient(red, yellow, blue);
-}
-
 .icons a {
     color: transparent;
 }
 
 .trybe {
     width: 100%;
+}
+
+.corpo li {
+    font-size: 20px;
 }
