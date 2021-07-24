@@ -26,3 +26,22 @@ nav {
   color: aliceblue;
   text-decoration: none;
 }
+
+.pic-and-description-container {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.my-pic {
+  width: 15em;
+  border-radius: 50%;
+}
+
+.description {
+  width: 50%;
+  text-align: justify;
+}
