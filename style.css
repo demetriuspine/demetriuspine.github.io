@@ -1,113 +1,28 @@
-*{
-    margin: 0;
-}
-div {
-    padding: 5px;
-}
-body {
-    font-family: monospace;
-    background-image: url(/dsotm.jpg);
-    backdrop-filter: blur(20px);
-    background-position: center;
-    background-size: cover;
-    color: white;
-}
-p {
-    text-align: justify;
-    font-size: 20px;
-}
-.rounded-pic {
-    border-radius: 50%;
-    float: left;
-    width: 150px;
-    padding: 5px;
-    background-color: rebeccapurple;
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  background-color: rgb(50, 167, 145)
 }
 
-h1 {
-    text-align: left;
-    font-size: 50px;
+.links-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+  width: 50%;
 }
 
-.pic-width {
-    height: 210px;
-    position: relative;
+.links-container a {
+  width: 15%;
 }
 
-.description {
-    position: absolute;
-    top: 30%;
-    left: 170px;
-    padding: 20px;
+.title-container {
+  padding: 0.5%;
 }
 
-#quote {
-    text-align: right;
-    font-size: 16px;
-    padding: 10px;
-}
-
-.trajetoria p {
-    padding: 20px;
-}
-.title {
-    padding: 10px 100px;
-}
-.nome {
-    padding: 10px;
-}
-.general-container h2 {
-    text-align: left;
-    color: lightblue;
-    padding: 10px;
-    margin-top: 15px;
-    font-size: 30px;
-}
-
-ul li {
-    padding: 5px;
-}
-.index {
-    width: 500px;
-}
-
-li a{
-    color: red;
-    background-color: white;
-    border-radius: 15%;
-    padding: 3px;
-    text-decoration: unset;
-    font-size: 20px;
-}
-
-li a:hover {
-    color: rgb(2, 58, 58);
-}
-
-li a:active {
-    background-color: red;
-    color: white;
-}
-
-.index-itens:hover {
-    font-weight: bold;
-}
-
-.icon-img {
-    width: 100px;
-    border-radius: 15%;
-    padding: 0px;
-    margin: 15px;
-}
-
-.icons a {
-    color: transparent;
-}
-
-.trybe {
-    width: 100%;
-}
-
-.corpo li {
-    font-size: 20px;
+.title-container a {
+  color: aliceblue;
+  text-decoration: none;
 }
