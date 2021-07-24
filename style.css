@@ -12,6 +12,7 @@ nav {
   position: fixed;
   height: 60px;
   z-index: 1;
+  top: 0;
 }
 
 .links-container {
@@ -68,4 +69,13 @@ main {
 .list-group-item {
   text-transform: uppercase;
   z-index: 0;
+}
+
+h2 { 
+  position:relative; 
+}
+
+span { 
+  position:absolute; 
+  top:-60px;
 }
