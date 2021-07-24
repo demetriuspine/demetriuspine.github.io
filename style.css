@@ -1,4 +1,6 @@
-
+#port-content {
+  font-family: 'Otomanopee One';
+}
 
 nav {
   display: flex;
@@ -50,7 +52,8 @@ nav {
 }
 
 main {
-  margin: 25px
+  padding: 25px;
+  background-color: aliceblue;
 }
 
 .description {
@@ -78,4 +81,8 @@ h2 {
 span { 
   position:absolute; 
   top:-60px;
+}
+
+.btn {
+  color: aliceblue;
 }
