@@ -1,21 +1,32 @@
+
+
 nav {
   display: flex;
   justify-content: space-between;
   width: 100%;
   align-items: center;
-  background-color: rgb(50, 167, 145)
+  background-color: rgb(50, 167, 145);
+}
+
+.navigation-container {
+  position: fixed;
+  height: 60px;
+}
+
+br {
+  height: 100px;
 }
 
 .links-container {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
   list-style: none;
   width: 50%;
 }
 
 .links-container a {
-  width: 15%;
+  width: 8em;
 }
 
 .title-container {
@@ -28,12 +39,11 @@ nav {
 }
 
 .pic-and-description-container {
-  padding: 10px;
+  padding-top: 75px;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
 
 .my-pic {
